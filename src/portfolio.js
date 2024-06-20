@@ -488,7 +488,7 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Title",
+  title: "Experience",
   subtitle: "Subtitle",
   description: "Description",
   header_image_path: "experience.svg",
