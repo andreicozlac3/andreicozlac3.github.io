@@ -25,9 +25,13 @@ class Projects extends Component {
         <div className="basic-projects">
           <Fade bottom duration={2000} distance="40px">
             <div className="projects-heading-div">
-              {/* <div className="projects-heading-img-div">
+              <div className="projects-heading-img-div">
+                {/* <img
+											src={require(`../../assests/images/${projectsHeader["avatar_image_path"]}`)}
+											alt=""
+										/> */}
                 <ProjectsImg theme={theme} />
-              </div> */}
+              </div>
               <div className="projects-heading-text-div">
                 <h1
                   className="projects-heading-text"
@@ -45,18 +49,18 @@ class Projects extends Component {
             </div>
           </Fade>
         </div>
-        {/* <div className="repo-cards-div-main">
+        <div className="repo-cards-div-main">
           {ProjectsData.data.map((repo) => {
             return <GithubRepoCard repo={repo} theme={theme} />;
           })}
-        </div> */}
-        {/* <Button
+        </div>
+        <Button
           text={"More Projects"}
           className="project-button"
           href={greeting.githubProfile}
           newTab={true}
           theme={theme}
-        /> */}
+        />
 
         {/* Publications  */}
         {publications.data.length > 0 ? (
@@ -64,18 +68,18 @@ class Projects extends Component {
             <Fade bottom duration={2000} distance="40px">
               <div className="publications-heading-div">
                 <div className="publications-heading-text-div">
-                  {/* <h1
+                  <h1
                     className="publications-heading-text"
                     style={{ color: theme.text }}
                   >
                     {publicationsHeader.title}
-                  </h1> */}
-                  {/* <p
+                  </h1>
+                  <p
                     className="projects-header-detail-text subTitle"
                     style={{ color: theme.secondaryText }}
                   >
                     {publicationsHeader["description"]}
-                  </p> */}
+                  </p>
                 </div>
               </div>
             </Fade>
