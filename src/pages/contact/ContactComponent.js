@@ -37,21 +37,21 @@ class Contact extends Component {
                 >
                   {ContactData["title"]}
                 </h1>
-                <p
+                {/* <p
                   className="contact-header-detail-text subTitle"
                   style={{ color: theme.secondaryText }}
                 >
                   {ContactData["description"]}
-                </p>
+                </p> */}
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
@@ -81,15 +81,8 @@ class Contact extends Component {
               </div>
             </div>
           </Fade> */}
-          <Fade bottom duration={1000} distance="40px">
+          {/* <Fade bottom duration={1000} distance="40px">
             <div className="address-heading-div">
-              <div className="contact-heading-img-div">
-                {/* <img
-											src={require(`../../assests/images/${addressSection["avatar_image_path"]}`)}
-											alt=""
-										/> */}
-                <AddressImg theme={theme} />
-              </div>
               <div className="address-heading-text-div">
                 <h1
                   className="address-heading-text"
@@ -125,7 +118,7 @@ class Contact extends Component {
                 </div>
               </div>
             </div>
-          </Fade>
+          </Fade> */}
         </div>
         <Footer theme={this.props.theme} onToggle={this.props.onToggle} />
         <TopButton theme={this.props.theme} />

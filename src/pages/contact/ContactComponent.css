@@ -36,9 +36,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #f8f9fa; /* Light gray background */
+  background-color: #edf9fe; /* Theme body color */
   padding: 20px; /* Add some padding */
   border-radius: 10px; /* Rounded corners */
+  border: 2px solid #0e6ba8; /* Theme imageHighlight color for border */
+  box-shadow: 0 4px 8px rgba(0, 7, 45, 0.2); /* Theme dark color for shadow */
+  margin-bottom: 20px; /* Add some space below the image */
+}
+
+.contact-heading-text-div {
+  text-align: center;
+  margin-top: 20px; /* Optional: Add some space above the text */
 }
 
 .blog-heading-img-div {
