@@ -14,10 +14,10 @@ const IconWrapper = styled.span`
 `;
 
 export default function socialMedia(props) {
-  // Add a filter condition to exclude items. For example, to exclude 'facebook':
-  const filteredLinks = socialMediaLinks.filter(
-    (media) => media.name !== "Gmail"
-  );
+  // const filteredLinks = socialMediaLinks.filter(
+  //   (media) => media.name !== "Gmail"
+  // );
+  const filteredLinks = socialMediaLinks;
 
   return (
     <div className="social-media-div">

@@ -50,7 +50,7 @@ const socialMediaLinks = [
   },
   {
     name: "Gmail",
-    link: "mailto:",
+    link: "mailto:a.cozlac@bluewin.ch",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
