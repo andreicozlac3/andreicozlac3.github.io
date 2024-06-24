@@ -1,23 +1,19 @@
-import React, { Component } from "react";
-import "./CourseContent";
+import React from "react";
+import PropTypes from "prop-types";
+import "./CourseContent.css";
 
-class CourseContent extends Component {
-  render() {
-    return (
-      <div class="container">
-        <div class="course-item">
-          <img
-            src="https://th.bing.com/th/id/OIP.xkJHbFx-4usyzMNWf37gTQAAAA?w=226&h=180&c=7&r=0&o=5&dpr=2&pid=1.7"
-            alt="Course 1"
-          />
-          <div class="course-description">
-            <h3>Title</h3>
-            <p>Description</p>
-          </div>
-        </div>
-      </div>
-    );
-  }
-}
+const CourseContent = ({ title, description }) => {
+  return (
+    <div className="course-content">
+      <h3>{title}</h3>
+      <p>{description}</p>
+    </div>
+  );
+};
+
+CourseContent.propTypes = {
+  title: PropTypes.string.isRequired,
+  description: PropTypes.string.isRequired,
+};
 
 export default CourseContent;

@@ -1,20 +1,10 @@
-.course-header {
-  font-size: 40px;
-  line-height: 1.1;
-  font-family: "Google Sans Regular";
+.course-rectangle {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.course-rectangle .course-content {
   text-align: center;
-  margin-left: 10px;
-  margin-right: 10px;
-}
-
-@media (max-width: 1380px) {
-  .course-header {
-    font-size: 35px;
-  }
-}
-
-@media (max-width: 768px) {
-  .course-header {
-    font-size: 25px;
-  }
 }
