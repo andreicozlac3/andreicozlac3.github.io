@@ -11,14 +11,13 @@
   margin-top: 2rem;
 }
 
-.gretting-main {
+.greeting-main {
+  display: flex;
+  flex-direction: row; /* Change this to column to stack items vertically */
+  align-items: flex-start; /* Center align items horizontally */
   width: 90%;
   padding: 20px 10px;
   margin: 0px auto;
-}
-
-.greeting-main {
-  display: flex;
 }
 
 .greeting-main > * {
@@ -31,10 +30,15 @@
 }
 
 .greeting-text {
-  margin-top: 80px;
+  margin-top: 0px;
   font-size: 70px;
   line-height: 1.1;
   font-family: "Google Sans Bold";
+}
+
+.greeting-text-div {
+  flex: 1;
+  margin-right: 20px;
 }
 
 .greeting-nickname {
@@ -44,7 +48,7 @@
 }
 
 .greeting-text-p {
-  font-size: 40px;
+  font-size: 20px;
   line-height: 40px;
   margin-right: 40px;
   font-family: "Google Sans Medium";
@@ -53,6 +57,26 @@
 .greeting-image-div > * {
   max-width: 100%;
   height: auto;
+}
+
+.greeting-image-video-div {
+  display: flex;
+  flex-direction: column; /* Stack image and video vertically */
+  flex: 1;
+}
+
+.greeting-image-div,
+.video-component {
+  margin-bottom: 20px;
+}
+
+.video-component {
+  max-width: 100%;
+  height: auto;
+  margin-top: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-family: "Google Sans Medium";
 }
 
 /* Media Query */
@@ -65,6 +89,14 @@
   }
 }
 @media (max-width: 768px) {
+  .greeting-main {
+    display: block; /* Switch to block layout for small screens */
+  }
+
+  .greeting-text-div {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
   .button-greeting-div {
     justify-content: space-around;
   }
@@ -82,9 +114,6 @@
     margin-right: 0px;
     line-height: normal;
     text-align: center;
-  }
-  .greeting-main {
-    display: block;
   }
 
   .portfolio-repo-btn-div {

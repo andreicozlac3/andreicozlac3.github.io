@@ -19,7 +19,7 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Andrei Cozlac",
+  title: "",
   logo_name: "AndreiCozlac",
   nickname: "",
   subTitle:
