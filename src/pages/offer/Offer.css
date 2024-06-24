@@ -1,0 +1,16 @@
+.courses-main {
+  padding: 40px 20px;
+}
+
+.courses-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.course-rectangle {
+  flex: 0 1 calc(50% - 20px); /* Ensure two rectangles per row, accounting for gap */
+  max-width: calc(50% - 20px);
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
