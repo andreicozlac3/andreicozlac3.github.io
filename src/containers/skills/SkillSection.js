@@ -7,6 +7,7 @@ import VinyasaYogaImg from "./VinyasaYogaImg";
 import FullStackImg from "./FullStackImg";
 import CloudInfraImg from "./CloudInfraImg";
 import DesignImg from "./DesignImg";
+import SkillImage from "./SkillImage";
 
 function GetSkillSvg(props) {
   if (props.fileName === "VinyasaYogaImg")
@@ -28,7 +29,7 @@ class SkillSection extends Component {
             <div key={i} className="skills-main-div">
               <Fade left duration={2000}>
                 <div className="skills-image-div">
-                  <GetSkillSvg fileName={skill.fileName} theme={theme} />
+                  <SkillImage theme={theme} />
                 </div>
               </Fade>
 

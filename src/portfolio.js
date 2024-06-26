@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Andrei Cozlac",
   description:
-    "Is a dedicated and accomplished ballet teacher with over two decades of experience in dance and education. Trained at the prestigious Dance Academy Zürich, Andrei performed with several renowned ballet companies, including Opera House Zürich and the Grand Theatre Geneva, before transitioning into teaching. In present, he is finishing his Master's degree in Teaching and Coaching Dance Professionals at the University of Arts in Zürich.",
+    "Is a dedicated and accomplished ballet teacher with over two decades of experience in dance and education. Trained at the prestigious Dance Academy Zürich, Andrei performed with several renowned ballet companies, including Opera House Zürich and the Grand Theatre Geneva, before transitioning into teaching. In present, he is finishing his Master's degree in Teaching and Coaching Dance Professionals at the University of Arts in Zürich. Hi, I’am Andrei. I used to work as a professional ballet dancer. Now, my passion is Yoga.",
   og: {
     title: "Andrei Cozlac Portfolio",
     type: "website",
@@ -23,7 +23,7 @@ const greeting = {
   logo_name: "AndreiCozlac",
   nickname: "",
   subTitle:
-    "Is a dedicated and accomplished ballet teacher with over two decades of experience in dance and education. Trained at the prestigious Dance Academy Zürich, Andrei performed with several renowned ballet companies, including Opera House Zürich and the Grand Theatre Geneva, before transitioning into teaching. In present, he is finishing his Master's degree in Teaching and Coaching Dance Professionals at the University of Arts in Zürich.",
+    "Hi, I'am Andrei. I used to work as a professional ballet dancer. Now, my passion is Yoga.",
   resumeLink:
     "https://drive.google.com/file/d/1bXRknv_h-XI_3CQ3SGPteGODtvEb7YvI/view?usp=sharing",
 };
@@ -83,19 +83,12 @@ const socialMediaLinks = [
 const skills = {
   data: [
     {
-      title: "Vinyasa Yoga",
+      title: "Urban Vinyasa Yoga",
       fileName: "VinyasaYogaImg",
-      skills: ["⚡ text", "⚡ text", "⚡ text"],
-    },
-    {
-      title: "Hatha Yoga",
-      fileName: "FullStackImg",
-      skills: ["⚡ text", "⚡ text", "⚡ text"],
-    },
-    {
-      title: "Yin Yoga",
-      fileName: "CloudInfraImg",
-      skills: ["⚡ text", "⚡ text", "⚡ text"],
+      skills: [
+        "Where the ancient wisdom of yoga meets the dynamic energy of city life. Our classes are designed to harmonise your body, mind, and spirit, providing a sanctuary of calm amidst the urban hustle and bustle.",
+        "Is a contemporary approach to traditional Vinyasa yoga. This style focuses on synchronising breath with movement, creating a flowing sequence of poses that build strength, flexibility, and mindfulness. Our unique urban twist incorporates elements of modern fitness and mindfulness techniques, ensuring a well-rounded and invigorating practice.",
+      ],
     },
   ],
 };
