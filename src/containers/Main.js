@@ -17,39 +17,15 @@ export default class Main extends Component {
       <BrowserRouter basename="/">
         <Switch>
           <Route
-            path="/"
-            exact
-            render={(props) =>
-              settings.isSplash ? (
-                <Splash {...props} theme={this.props.theme} />
-              ) : (
-                <Home {...props} theme={this.props.theme} />
-              )
-            }
-          />
-          <Route
             path="/home"
             render={(props) => <Home {...props} theme={this.props.theme} />}
           />
           <Route
             path="/experience"
-            exact
             render={(props) => (
               <Experience {...props} theme={this.props.theme} />
             )}
           />
-          <Route
-            path="/education"
-            render={(props) => (
-              <Education {...props} theme={this.props.theme} />
-            )}
-          />
-          {/* <Route
-            path="/opensource"
-            render={(props) => (
-              <Opensource {...props} theme={this.props.theme} />
-            )}
-          /> */}
           <Route
             path="/offer"
             render={(props) => <Offer {...props} theme={this.props.theme} />}
@@ -58,13 +34,6 @@ export default class Main extends Component {
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
           />
-
-          {settings.isSplash && (
-            <Route
-              path="/splash"
-              render={(props) => <Splash {...props} theme={this.props.theme} />}
-            />
-          )}
 
           <Route
             path="/projects"
