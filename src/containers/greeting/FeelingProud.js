@@ -1,18 +1,13 @@
-import React, { Component } from "react";
+import React from "react";
+import pose2 from "../../assests/images/pose2.jpg";
+import "./Greeting";
 
-class FeelingProud extends Component {
-  render() {
-    const theme = this.props.theme;
-    return (
-      <div>
-        {/* Image can be styled according to the theme */}
-        <img
-          src="https://assets.classicfm.com/2012/24/andrei-cozlac-1339413861-view-0.jpg"
-          alt="Feeling Proud"
-        />
-      </div>
-    );
-  }
+function FeelingProud(props) {
+  return (
+    <div>
+      <img src={pose2} alt="Feeling Proud" />
+    </div>
+  );
 }
 
 export default FeelingProud;
