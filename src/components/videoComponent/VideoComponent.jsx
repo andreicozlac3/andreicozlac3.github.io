@@ -4,7 +4,7 @@ import ReactPlayer from "react-player";
 function VideoComponent() {
   return (
     <div>
-      <ReactPlayer url="https://www.youtube.com/watch?v=TNlv8BkaSow" controls />
+      <ReactPlayer url="https://youtu.be/z071ftTdcDY?si=4Qwf10_t6mEkb7wr" controls />
     </div>
   );
 }
